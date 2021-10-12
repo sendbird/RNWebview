@@ -17,7 +17,7 @@ import {
   StatusBar, TextInput,
 } from 'react-native';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
-import { mediaDevices, registerGlobals, RTCView } from 'react-native-webrtc';
+import { registerGlobals } from 'react-native-webrtc';
 import { WebView } from 'react-native-webview';
 import RemotePushController from "./src/services/RemotePushController";
 import SendBirdCall from 'sendbird-calls';
