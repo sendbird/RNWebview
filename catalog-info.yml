@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: RNWebview
+  description: Public sample repository for Sendbird calls JavaScript using React-Native WebView
+  annotations:
+    github.com/project-slug: sendbird/RNWebView
+spec:
+  type: sample
+  lifecycle: production
+  owner: dep-client-platform
+  system: sendbird-calls
